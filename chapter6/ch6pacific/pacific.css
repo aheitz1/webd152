@@ -1,0 +1,18 @@
+body{background-color: #90c7e3; background-image: linear-gradient(to bottom, #fff, #90c7e3); background-repeat: no-repeat ; color: #555; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;} /* bgc#90c7e3 bgi bgr c#555 ffa */
+#wrapper{background-color: #fff; box-shadow: 3px 3px 3px #333; margin: auto; min-width: 960px; max-width: 2048px; width: 80%;} /* bgc#fff bxsd m mw960 maw2048 w80% */
+header{color: #fff; background-color: #000032; background-image: url(images/sunset.jpg); background-position: right; background-repeat: no-repeat; height: 60px; padding-top: 15px; text-align: center;} /* bgc#002171 c#fff bgi bgdp bgr h60 pt15 tac */
+nav{background-color: #fff; font-weight: bold; padding: 1em; text-align: center;} /* bgc#fff fwb p1em tac Note: I'm not quite sure why, I checked with the validator, but the bullets in my unordered lists aren't centering with the rest of the text of the list items*/
+nav a{text-decoration: none;} /* txd */
+main{padding: 1px 20px 20px;} /* p1-20-20 */
+h1{margin-bottom: 0; margin-top: 0;} /* mb0 mt0 */
+h1, h2, h3, footer{font-family: Georgia, "Times New Roman", serif;} /* fft */
+h2{color: #1976d2; text-shadow: 1px 1px #ccc;} /* c#1976d2 txs*/
+h3{color: #003;} /* c#003 */
+dt{color: #002171;} /* c#002171 */
+address{font-style: normal;} /* fsn */
+footer{font-size: 75%; font-style: italic; padding: 2em; text-align: center; } /* fz75% fsi p2em txa */
+.resort{color: #1976d2; font-weight: bold;} /* c#1976d2 fwb*/
+#homehero, #yurthero, #trailhero {background-repeat: no-repeat; background-size: cover; height: 18.75rem;} /* bgr bgc:cover h18.75rem */
+#homehero {background-image: url(images/coast.jpg);}
+#yurthero {background-image: url(images/yurt.jpg);}
+#trailhero {background-image: url(images/trail.jpg);}
